@@ -25,7 +25,7 @@ class SsrfController extends Controller
         ]);
     }
 
-    // ✅ SEGURO (lo implementamos después)
+    // ✅ SEGURO 
     public function secure(Request $request)
     {
         return response()->json([
